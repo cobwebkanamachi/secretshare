@@ -1,0 +1,12 @@
+gradlew was not used (not worked).
+
+download by your hand https://downloads.gradle.org/distributions/gradle-2.2.1-bin.zip 
+cp ../gradle-2.2.1-bin.zip .
+unzip gradle-2.2.1-bin.zip 
+./gradlec build
+cd build
+cd libs
+cp ./secretshare-1.4.2-SNAPSHOT.jar  ../../secretshare.jar
+
+then you can test senarios wrote on "A complete scenario:".
+It was worked!.
